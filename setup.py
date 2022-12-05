@@ -13,7 +13,7 @@ setup(
     maintainer="Aashish Upadhyay",
     packages=["super-scraper"] + find_packages("./super-scraper"),
     install_requires=[
-        "requests>=2.7.0",
-        "selenium>4.7.0",
+        "beautifulsoup4==4.11.1"
     ]
 )
+
