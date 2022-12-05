@@ -1,10 +1,3 @@
-from bs4 import BeautifulSoup
-import urllib3 
+from core import HTTPRequestHandler 
 
-http = urllib3.PoolManager()
-
-r = http.request('GET', 'https://urllib3.readthedocs.io/en/stable/')
-
-soup = BeautifulSoup(r._body, "html.parser")
-
-print(soup.prettify())
+__all__ = ("HTTPRequestHandler")
