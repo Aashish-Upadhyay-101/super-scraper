@@ -1,3 +1,3 @@
-from core import HTTPRequestHandler 
+from core import HTTPRequestResponseHandler 
 
-__all__ = ("HTTPRequestHandler")
+__all__ = ("HTTPRequestResponseHandler")
