@@ -8,7 +8,7 @@ def extract_meta():
     The function to extract meta tag.
 
     Returns:   
-        meta_list (list) : List of
+        meta_list (list) : List of Meta tags contents
     """
 
     handler.response()
@@ -23,6 +23,18 @@ def extract_meta():
         meta_list.append(one_list)
 
     return meta_list
+
+def extract_images_url(): 
+    """
+    The function to extract all image of a webpage
+
+    Returns:
+        image_urls (list) : List of image urls
+    """
+
+    image_urls = []
+    return image_urls
+
 
 
 
